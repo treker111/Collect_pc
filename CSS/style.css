@@ -1,0 +1,86 @@
+body{
+  background-image: url("../img/9058.jpg");
+justify-content: flex-end;
+font-family: 'Oswald', sans-serif;
+}
+header h1 {
+font-family: 'Oswald', sans-serif;
+}
+  .main-menu * {
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul,
+.main-menu ol{
+  list-style: none;
+}
+
+.main-menu ul{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+.main-menu ul li h1{
+  padding: 0px 160px 10px 50px;
+  color: #27233e;
+  font-size: 30px;
+}
+.main-menu ul li p{
+  color: #f5f9fa;
+}
+.fa{
+    color: #f5f9fa;
+}
+.main-menu ul li p.fa{
+  position: absolute;
+  top: -4px;
+  left: -100px;
+  font-size: 60px;
+  }
+  .main-menu ul li p.fa{
+    padding: 0px 280px 10px 5px
+  }
+  .main-menu ul li {
+    position: relative;
+    top: 1px;
+    left: 50px;
+    font-size: 30px;
+  }
+  .main-menu ul li a{
+    display: block;
+  padding: 10px 15px 10px 40px;
+    font-size: 15px;
+    color: #27233e;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  .main-menu ul li{
+    position: relative;
+  }
+  .main-menu ul li a i.fa{
+    position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 15px;
+  }
+
+  .main-menu li a:hover{
+    color: #416c85;
+    transition: all 0.3s ease;
+    box-shadow: 1px 15px 10px -5px black;
+  }
+
+  .main-menu li ul{
+    position: absolute;
+    min-width: 100px;
+    display: none;
+  }
+  .main-menu li ul li a {
+    padding: 15px 1px 1px 1px;
+    text-transform: none;
+  }
+  .main-menu li:hover ul{
+    display: block;
+  }
